@@ -1,5 +1,8 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 /* common style */
 body{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -86,7 +89,7 @@ main{
     align-items: center;
     width: 1050px;
     height: 400px;
-    margin: 20px;
+    margin:30px;
     border-radius: 5px;
     
 }
@@ -112,6 +115,29 @@ span{
     font-size: 60px;
     color: #FFFFFF;
 }
+/* from style start */
+form {
+    border: 2px solid black;
+    height: 200px;
+    width:400px;
+    background-color: darkgreen;  
+}
+h2{
+    text-align: center;
+}
+hr{
+    padding: 1px;
+    color
+}
+.from p{
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+.Button{
+  margin-left: 100px;
+  background-color:#FFFFFF;
+}
+
 /* Footer style */
 .footer-content img{
     width: 483.87px;
@@ -119,7 +145,8 @@ span{
 }
 
 footer{
-
+    margin-top: 100px;
+    margin-bottom: 63px;
     height:50% ;
     width: 100%;
     padding-top: 40px;
@@ -130,6 +157,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .socials{
     list-style: none;
