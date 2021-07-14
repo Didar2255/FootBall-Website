@@ -37,9 +37,14 @@ main{
     font-weight: 700; 
     border-radius: 10px;
     font-size: 16px;
+    position: absolute;
 }
 .Game-name .link-button:hover{
-    background-color: brown;
+    background-color: rgb(213, 89, 22);
+}
+.Game-name:hover .link-button{
+    transform:translate(20px,-0px);
+    transition: transform 1s ease-in-out;
 }
 .logo .header-img{
     width: 556.01px;
