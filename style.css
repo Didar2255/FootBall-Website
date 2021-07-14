@@ -12,7 +12,7 @@ main{
     align-items: center;
     margin-top: 70px;
 }
-/* Header section */
+/* Header section style start */
 .header-content{
     display: flex;
     align-items: center;
@@ -50,7 +50,9 @@ main{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
 }
-/* player information style */
+/* Header section style End */
+/* ---------------------------------------- */
+/* player information style  start*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -80,7 +82,8 @@ main{
    text-align: justify; 
    font-size: 16px; 
 }
-
+/* player information style  start*/
+/* ----------------------------------------- */
 /* field section style start */
 .field img{
     height:280px ;
@@ -129,6 +132,8 @@ span{
     font-size:50px;
     color: #FFFFFF;
 }
+/* field section style end*/
+/* -------------------------------------- */
 /* from style start */
 form {
   
@@ -153,7 +158,7 @@ hr{
 }
 /* from style end */
 /* ---------------------- */
-/* Footer style */
+/* Footer style  start*/
 .footer-content img{
     width: 483.87px;
     height: 110px;
@@ -206,8 +211,10 @@ footer{
     text-align: center;
     font-size: 18px;
 }
-/* media query  start */
+/* Footer style  End*/
+/* media query*/
 @media (max-width:688px) {
+    /* Headar section responsiv start */
     .header-content{
         flex-direction: column;
         width:100%;
@@ -223,9 +230,15 @@ footer{
         top: 374px;
         margin-right:250px;        
     }
+    /* Headar section responsiv start */
+    /* ----------------------------------------------- */
+    /* player section responsiv  start*/
    .players{
         grid-template-columns: repeat(1,1fr);
     }
+    /* player section responsiv  end*/
+    /* -------------------------------------------- */
+    /* Field section responsiv  start*/
     .field .Messi{
         height: 200px;
         width:150px;
@@ -249,10 +262,15 @@ footer{
         height: 600px;
         width: 320px;
     }
+    /* Field section responsiv  End*/
+    /* --------------------------------------- */
+    /* Form section responsiv  Start*/
     .form{
         width: 100%;
-        margin-right: 50px;
     }
+    /* Form section responsiv  Start*/
+    /* ------------------------------------------- */
+    /* Footer responsiv Start */
     footer{
         margin-bottom: 187px;
     }
@@ -263,5 +281,5 @@ footer{
     .footer-bottom{
         margin-left: 20px;
     }
-
+  /* Footer responsiv End*/
 }
