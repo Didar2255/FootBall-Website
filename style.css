@@ -16,6 +16,7 @@ main{
 .header-content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width:100%;
     height: 677px;
     background-color:  #2D25A0;
@@ -46,12 +47,12 @@ main{
     transform:translate(20px,-0px);
     transition: transform 1s ease-in-out;
 }
-.logo .header-img{
-    width: 556.01px;
+.logo img {
+    width: 400px;
     height: 438px;
-    margin: 140px;
+    margin-top: 50px;
 }
-.logo:hover .header-img{
+.logo img:hover{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
 }
@@ -240,6 +241,9 @@ footer{
     /* player section responsiv  start*/
    .players{
         grid-template-columns: repeat(1,1fr);
+    }
+    .player img{
+        width: 100%;
     }
     /* player section responsiv  end*/
     /* -------------------------------------------- */
